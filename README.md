@@ -37,9 +37,20 @@ These datasets were merged and prepared for analysis and modeling.
 
 ## Key Insights
 
-* Customer demographics influence spending behavior.
-* Certain behavioral features show strong relationships with credit card consumption.
-* Predictive modeling can estimate customer spending patterns with reasonable accuracy.
+The Linear Regression model shows that historical spending behavior is the strongest predictor of credit card consumption.
+
+## Key Positive Drivers:
+* Past credit card consumption (cc_cons_apr, cc_cons_may, cc_cons_jun)
+* Debit card consumption patterns (dc_cons_apr, dc_cons_may)
+* Credit activity frequency (credit_count_jun)
+
+This indicates that customers with consistent past spending behavior tend to continue higher consumption patterns.
+
+## Key Negative Drivers:
+* Several region-based variables (e.g., region_code_814, region_code_907, region_code_265)
+* Debit amount in June (debit_amount_jun)
+
+This suggests strong geographic variation in spending behavior and possible budget balancing effects between debit and credit usage.
 
 ## Repository Structure
 
